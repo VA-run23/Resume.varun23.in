@@ -3,10 +3,10 @@
 
 const RESUME_DATA = {
     name: "Varun D Magar",
-    subtitle: "Backend engineer and CS undergrad who likes building systems that don't fall over — from cloud-to-edge architectures to fault-tolerant APIs.",
+    subtitle: "Software Engineer building scalable backend systems, cloud infrastructure, and distributed applications.",
     profileImage: "profile.jpg",
     location: {
-        name: "Mysore, India",
+        name: "Mysore, Karnataka, India",
         url: "https://www.google.com/maps/place/Mysore"
     },
     email: "2023cs_varundmagar_d@nie.ac.in",
@@ -15,37 +15,37 @@ const RESUME_DATA = {
         { type: "github", url: "https://github.com/VA-run23", label: "GitHub" },
         { type: "linkedin", url: "https://linkedin.com/in/va-run23", label: "LinkedIn" },
         { type: "leetcode", url: "https://leetcode.com/u/VA-run23/", label: "LeetCode" },
-        { type: "portfolio", url: "https://va-run23.netlify.app", label: "Portfolio" }
+        { type: "portfolio", url: "https://varun23.in/", label: "Varun23.in - Portfolio" }
     ],
 
-    about: "I'm a Computer Science undergrad at the National Institute of Engineering, Mysore (Class of 2027) with a focus on backend engineering and distributed systems. I like taking a broadly-defined problem and turning it into something concrete — whether that's architecting a cloud-to-edge printing platform, designing a race-condition-proof analytics engine, or building a Node.js microservice that serves 2,000+ developer widgets. Outside of building, I write technical articles on system design and backend engineering, and I spend a fair bit of time on LeetCode (Knight, top 5% globally). Currently looking for SDE internship opportunities where I can work on hard, real-world engineering problems.",
+    about: "I'm a pre-final year Computer Science student at the National Institute of Engineering, Mysore (Class of 2027), specializing in backend systems, cloud infrastructure, and distributed architectures. I build production-grade software — from cloud-to-edge IoT platforms to containerized microservices to scalable APIs serving thousands of requests. I've maintained a 650+ day coding streak, earned LeetCode Knight rank (top 5% globally) with 700+ problems solved, and shipped systems that have won awards at national-level expos. My focus is on building reliable, scalable systems that solve real problems — whether that's optimizing database performance, designing fault-tolerant architectures, or automating deployments. Currently exploring Kubernetes, distributed tracing, and system design patterns. Open to SDE, Cloud Engineer, DevOps Engineer, and Full-Stack Developer internship opportunities.",
 
     education: [
         {
-            institution: "National Institute of Engineering, Mysore",
+            institution: "National Institute of Engineering, Mysuru",
             period: "Sep '23 - June '27",
-            degree: "B.E. in Computer Science and Engineering | CGPA: 8.94/10.0 (up to 6th Sem)",
+            degree: "B.E. in Computer Science and Engineering | CGPA: 8.95/10.0 (up to 6th Sem)",
             details: [
-                "Relevant Coursework: Data Structures & Algorithms, Object-Oriented Design, Operating Systems, Computer Networks, Database Management Systems, Distributed Systems, Software Engineering, Machine Learning"
+                "Relevant Coursework: Data Structures & Algorithms, Operating Systems, Computer Networks, Database Management Systems, Distributed Systems, Object-Oriented Design, Software Engineering, Machine Learning"
             ]
         }
     ],
 
     competitiveProgramming: [
         '<strong>LeetCode Knight (Top 5% globally):</strong> Peak rating 2116; solved 700+ problems spanning dynamic programming, graph algorithms, and system design patterns. | <a href="https://leetcode.com/u/VA-run23/" target="_blank" class="hover:underline">leetcode.com/u/VA-run23</a>',
-        '<strong>600+ day active coding streak</strong> across LeetCode, GitHub, and GeeksForGeeks - consistent discipline in debugging, problem-solving, and continuous technical growth.'
+        '<strong>650+ day active coding streak</strong> across GitHub, LeetCode, and GeeksforGeeks — consistent discipline in problem-solving, debugging, and continuous technical growth.'
     ],
 
     projects: [
         {
-            name: "PrintBridge - Cloud-Native Printing System (PaaS)",
+            name: "PrintBridge - Cloud-to-Edge Remote Printing System (PaaS)",
             url: "https://printbridge-by-vps.onrender.com",
             period: "May '26",
             role: "Backend Engineer | 4-Member Team | Node.js, Express, Sharp, PDFKit, ThingSpeak",
             bullets: [
-                "Accelerated end-to-end remote print execution to under 30 seconds by engineering a Cloud-to-Edge PaaS architecture that bridges a Node.js/Express backend with a local edge daemon for real-time, automated job queuing.",
-                "Engineered a highly resilient hardware concurrency system by developing a fault-tolerant edge agent featuring multi-OS printer driver fallbacks, mutex locks to prevent physical race conditions, and exponential backoff algorithms.",
-                "Eliminated server OOM crashes and secured seamless ease of scaling by building a memory-efficient, stream-based document rendering pipeline, while ensuring high availability via real-time ThingSpeak telemetry and a zero-retention file lifecycle."
+                "Reduced end-to-end remote print latency to under 30 seconds by architecting a Node.js/Express cloud backend that dispatches jobs through an automated queue to a local edge daemon in real time.",
+                "Designed a fault-tolerant edge agent with multi-OS driver fallbacks, mutex locks to eliminate race conditions on shared hardware, and exponential-backoff retries for resilience under concurrent load.",
+                "Eliminated server out-of-memory crashes with a stream-based rendering pipeline and zero-retention file lifecycle; instrumented real-time health monitoring via ThingSpeak telemetry."
             ]
         },
         {
@@ -54,9 +54,9 @@ const RESUME_DATA = {
             period: "Sep '25 - Dec '25",
             role: "Backend Engineer | 4-Member Team | MERN Stack, Gemini AI, Docker, Jest",
             bullets: [
-                "Accelerated admin analytics by offloading heavy data crunching from the single-threaded Node.js event loop to native MongoDB Aggregation pipelines, drastically reducing server memory overhead and network payload.",
-                "Engineered a 48-hour rolling time-decay trending algorithm and infinite-depth threading by leveraging weighted interaction scores and an Adjacency List pattern, overcoming fundamental NoSQL document size constraints.",
-                "Developed a robust Admin Moderation and Trust Engine with granular Role-Based Access Control (RBAC) and programmatic policy constraints, empowering moderators with bulk-resolution capabilities to enforce platform safety."
+                "Cut server memory use and network payload by offloading admin analytics from the single-threaded Node.js event loop to native MongoDB aggregation pipelines.",
+                "Designed a 48-hour rolling time-decay trending algorithm and infinite-depth comment threading (adjacency-list pattern), overcoming NoSQL document-size limits.",
+                "Built an RBAC-secured moderation engine with bulk-resolution tools; containerized services with Docker and automated Jest regression tests in a GitHub Actions CI pipeline."
             ]
         },
         {
@@ -65,9 +65,8 @@ const RESUME_DATA = {
             period: "Dec '25 - Mar '26",
             role: "Full-Stack Developer | 3-Member Team | React, Redux, Node.js, MongoDB, JWT",
             bullets: [
-                "Optimized API response latency by 40% and accelerated database reads, achieving a zero-disk-footprint media upload pipeline by coupling selective data population with on-the-fly cloud stream compression.",
-                "Built a custom GitHub-style activity heatmap as a reusable React component and integrated Cloudinary CDN for optimized media delivery, improving user engagement analytics and content load times.",
-                "Engineered a race-condition-proof, privacy-first analytics engine by utilizing cryptographic visitor hashing, atomic database transactions, and MongoDB connection pooling to guarantee data integrity and system stability during heavy concurrent traffic spikes."
+                "Improved API response latency by 40% via selective data population; built a zero-disk-footprint media pipeline with on-the-fly stream compression and Cloudinary CDN delivery.",
+                "Engineered a race-condition-safe, privacy-first analytics engine using cryptographic visitor hashing, atomic DB operations, and connection pooling; built a reusable React activity-heatmap component."
             ]
         }
     ],
@@ -77,36 +76,39 @@ const RESUME_DATA = {
             name: "Above Influence - AI Wellness Tool",
             url: "https://above-influence.vercel.app/",
             displayUrl: "above-influence.vercel.app",
-            description: "Engineered a LangChain-powered AI orchestration engine with a 3-tier fallback pipeline, optimizing LLM token utilization by filtering raw API datasets into top-tier behavioral signals to compute 0-100% Goal Alignment Scores.",
-            tags: ["React", "n8n", "Gemini AI"]
+            description: "Built a LangChain-based LLM orchestration engine with a 3-tier fallback pipeline that distills raw API data into key behavioral signals, reducing token usage while computing 0-100% goal-alignment scores and automated risk ratings.",
+            tags: ["React", "n8n", "Gemini AI", "LangChain"]
         },
         {
-            name: "Streak Card 23 - SVG Generator",
+            name: "Streak Card 23 - Dynamic SVG Generator",
             url: "https://streak-card23.vercel.app/",
             displayUrl: "streak-card23.vercel.app",
-            description: "Generated 2,000+ dynamic developer widgets by architecting a high-performance Node.js microservice, aggregating cross-platform time-series metrics into on-the-fly SVG renders while leveraging strategic HTTP caching.",
-            tags: ["Node.js", "SVG", "REST APIs"]
+            description: "Served 2,000+ dynamic developer widgets from a Node.js microservice that aggregates cross-platform time-series metrics into on-the-fly SVGs, using HTTP caching to stay within upstream API rate limits.",
+            tags: ["Node.js", "Express", "SVG", "REST APIs"]
         },
         {
-            name: "Chess Pro - Multiplayer Platform",
-            url: "https://github.com/VA-run23",
-            displayUrl: "github.com/VA-run23",
-            description: "Built an interactive chess platform with real-time multiplayer, AI opponent using chess engine, move validation, game history tracking, and WebSocket-based live gameplay.",
-            tags: ["JavaScript", "WebSockets", "Chess.js"]
+            name: "2 Player Chess Game",
+            url: "https://chessgame-by-23neurobytes.onrender.com/",
+            displayUrl: "chessgame-by-23neurobytes.onrender.com",
+            description: "A real-time two-player chess game built with Socket.io, allowing two players to play against each other in the browser. Developed as a hands-on project to learn WebSockets and real-time communication.",
+            tags: ["JavaScript", "Socket.io", "HTML/CSS"]
         }
     ],
 
     skills: [
-        "C++", "JavaScript", "Python", "SQL", "Java",
-        "React.js", "Redux", "Node.js", "Express.js",
-        "MongoDB", "MySQL", "Docker", "Kubernetes", "AWS",
-        "REST APIs", "Socket.IO", "Microservices", "JWT", "RBAC"
+        "Python", "Java", "C++", "JavaScript", "SQL",
+        "Node.js", "Express.js", "React.js", "Redux",
+        "MongoDB", "MySQL", "Docker", "Kubernetes", "AWS (EC2, S3, IAM)",
+        "REST APIs", "Microservices", "CI/CD", "GitHub Actions", "Jest",
+        "Concurrency", "Caching", "Rate Limiting", "JWT", "RBAC",
+        "Linux", "Git", "System Design"
     ],
 
     achievements: [
-        "Published 20+ technical articles on backend engineering, system design, web development, and software engineering through VSKript.",
-        '<strong>IoT Project Expo 2026:</strong> 3rd Place out of 25+ teams for PrintBridge - Institution\'s Innovation Council (IIC), AICTE.',
-        '<strong>Innovista 2.0:</strong> Bronze Medal (3rd Place) out of 50+ teams - National Institute of Engineering, Mysuru.',
-        '<a href="https://coursera.org/share/406f4053ac5de1398397fc51f9280d85" target="_blank" class="hover:underline"><strong>IBM DevOps and Software Engineering (Coursera)</strong></a> | <a href="https://www.credly.com/users/va-run23/badges" target="_blank" class="hover:underline">Verified DevOps Credentials (Credly)</a>'
+        '<strong>LeetCode Knight (Top 5% globally):</strong> Peak rating 2116; 700+ problems solved; 650+ day active coding streak.',
+        '<strong>IoT Project Expo 2026:</strong> 3rd place among 25+ teams for PrintBridge — Institution\'s Innovation Council (IIC), AICTE.',
+        '<strong>Innovista 2.0:</strong> Bronze medal (3rd place) among 50+ teams at National Institute of Engineering, Mysuru.',
+        'Published 20+ technical articles on backend engineering, system design, and software development through <a href="https://vskript.netlify.app/profile/2" target="_blank" class="hover:underline">VSKript</a>.',
+        '<a href="https://coursera.org/share/406f4053ac5de1398397fc51f9280d85" target="_blank" class="hover:underline"><strong>IBM DevOps and Software Engineering Certificate (Coursera)</strong></a>, <a href="https://www.credly.com/users/va-run23/badges" target="_blank" class="hover:underline">verified on Credly</a>.'
     ]
 };
